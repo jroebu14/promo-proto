@@ -3,7 +3,7 @@ import { Box } from '@chakra-ui/react';
 
 import { Context } from '.';
 
-const PromoImage = ({ src, alt, children }) => {
+const PromoImage = ({ children }) => {
   const { imageSrc, imageAlt } = useContext(Context);
   const image = <img src={imageSrc} alt={imageAlt} />;
 
